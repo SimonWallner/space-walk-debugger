@@ -40,7 +40,7 @@ window.onload = function() {
 
 
 libsw.onMessage = function(data) {
-	// $('#dump').append(new Date().toString() + ': message got: ' + JSON.stringify(data) + '<br>');	
+	$('#dump').append(new Date().toString() + ': message got: ' + JSON.stringify(data) + '<br>');	
 	// $('#dump').text(new Date().toString() + ': message got: ' + JSON.stringify(data));
 
 	timer3.tick();
